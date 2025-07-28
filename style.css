@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box; 
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#landing {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav {
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#heading {
+    margin-top: 70px;
+}
+
+#heading h1 {
+    margin-left: 40px;
+    line-height: 1;
+    opacity: 0.6;
+    font-size: 9vw;
+    font-weight: 900;
+}
+
+#heading #secondh1 {
+    margin-left: 170px;
+}
+
+/* used to align h5 always at right */
+.blocktext {
+    width: fit-content;
+}
+
+.blocktext h5 {
+    text-align: right;
+    font-size: 18px;
+}
+
+#info {
+    margin-top: 100px;
+    padding-right: 40px;
+}
+
+#info p {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+
+#landing_footer {
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+#landing_footer a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#landing_footer .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+}
+
+
