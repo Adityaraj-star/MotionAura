@@ -110,7 +110,7 @@ html, body {
 #second_page {
     padding-top: 140px;
     padding-left: 40px;
-    padding-right: 20vw;
+    padding-right: 8vw;
     background-color: black;
     width: 100%;
     height: 100vh;
@@ -150,7 +150,7 @@ html, body {
     width: 100%;
     background-color: black;
     padding: 10vw;
-    padding-left: 30vw;
+    padding-left: 35vw;
     color: #fff;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ html, body {
 
 #intro_about p {
     margin-bottom: 20px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 #intro_about a{
@@ -185,4 +185,53 @@ html, body {
     border-radius: 30px;
     font-size: 0.8rem;
     text-decoration: none;
+}
+
+#connect {
+    background-color: black;
+    color: #fff;
+    padding: 2vw 4vw;
+    padding-bottom: 10vw;
+    line-height: 1.5;
+}
+
+#connect h5 {
+    opacity: 0.6;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+#connect h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 4vw;
+    background-color: black;
+    color: #fff;
+}
+
+#date_time {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#handles {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#handles a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
