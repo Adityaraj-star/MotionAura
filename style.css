@@ -10,11 +10,23 @@ html, body {
     height: 100%;
 }
 
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
 #main {
     width: 100%;
+    background-color: black;
 }
 
 #landing {
+    position: relative;
     color: #fff;
     width: 100%;
     height: 100vh;
